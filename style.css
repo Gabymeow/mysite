@@ -16,8 +16,8 @@
   font-family: "Verdana", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color: #f2f2f2f2;
-  background-color: #17161a;
+  color: #0c0c0c;
+  background-color: #fafafa;
 }
 
 .section-title {
@@ -158,4 +158,17 @@ p.contacts-name {
 .page-footer p {
   margin: 0;
   padding: 0;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    color: #fafafa;
+    background-color: #0c0c0c;
+  }
+  .page-header {
+    color: #fafafa;
+    background-color: #0c0c0c;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
 }
