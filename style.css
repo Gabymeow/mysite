@@ -171,4 +171,8 @@ p.contacts-name {
     background-color: #0c0c0c;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   }
+  .status p {
+    color: #fafafa;
+    background-color: #6d6d6d;
+  }
 }
